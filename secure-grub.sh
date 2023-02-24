@@ -1,9 +1,8 @@
-# Script developed by: Xen0rInspire
 #!/bin/bash
 
 # Edit this value to change the Grub user 
 # It doesn't have to be the same as an existing user on the system
-grubUser='admin'
+grubUser='ltq'
 
 # Check if the user is root
 if [ "$USER" != "root" ]
@@ -12,9 +11,7 @@ then
 	exit
 fi	
 
-# Read the future password
-echo "Please enter a password to secure GRUB with the user $grubUser"
-read passwd
+passwd="aaaa"
 
 # Get the hashed password for the grub user
 grubPassword=$(echo -e "$passwd\n$passwd" | grub-mkpasswd-pbkdf2 | grep -oE '[^ ]+$')
