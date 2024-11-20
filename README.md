@@ -233,4 +233,4 @@ Now the GRUB will ask a login/password only if we are editing the boot configura
 ___
 Created : 11/28/2020  
 Updated : 03/29/2021  
-Author : AnthonyF
+Author : Alpha
