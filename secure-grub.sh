@@ -2,7 +2,7 @@
 
 # Edit this value to change the Grub user 
 # It doesn't have to be the same as an existing user on the system
-grubUser='ltq'
+grubUser='xuser'
 
 # Check if the user is root
 if [ "$USER" != "root" ]
